@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+/* Your CSS Code here. */
+:root { --ink:#111; --brand:#0b3d91; --soft:#f7f7f8; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: system-ui, Arial, sans-serif; color:var(--ink); line-height:1.6; background:var(--soft); }
+
+header, nav, summary, section, aside, footer { padding:16px 20px; }
+header { background:var(--brand); color:#fff; }
+nav { background:#e9eef8; font-weight:600; }
+nav a { color:#0b3d91; text-decoration:none; margin-right:12px; }
+nav a:hover { text-decoration:underline; }
+
+section { background:#fff; border-top:1px solid #dde3ee; }
+section + section { margin-top:8px; }
+blockquote { margin:0; padding-left:14px; border-left:4px solid #999; }
+
+aside { background:#eef6ff; border-left:4px solid var(--brand); }
+footer { background:#10131a; color:#fff; text-align:center; }
